@@ -1,0 +1,55 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¡Âñ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¼Ù›Ã
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÅˆĞ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(µÔÙ±
+N	java:S106"9Replace this use of System.out or System.err by a logger.(í´´Ö
+N	java:S106"9Replace this use of System.out or System.err by a logger.(§ºáï
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ï²ù
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ïŞòªüÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(øé÷£
+S	java:S106"9Replace this use of System.out or System.err by a logger.(‚îğ˜ùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¤ˆÂúÿÿÿÿ
+N	java:S106$"9Replace this use of System.out or System.err by a logger.(„íí
+S	java:S106*"9Replace this use of System.out or System.err by a logger.(‚ÙêŒÿÿÿÿÿ
+N	java:S1060"9Replace this use of System.out or System.err by a logger.(¬ÛÑş
+N	java:S1067"9Replace this use of System.out or System.err by a logger.(±¿ğÉ
+S	java:S106:"9Replace this use of System.out or System.err by a logger.(óŞ¾Œüÿÿÿÿ
+N	java:S106="9Replace this use of System.out or System.err by a logger.(şãÃ›
+N	java:S106A"9Replace this use of System.out or System.err by a logger.(õü„·
+S	java:S106D"9Replace this use of System.out or System.err by a logger.(“ÕÌ¢ûÿÿÿÿ
+N	java:S106K"9Replace this use of System.out or System.err by a logger.(Àòøá
+N	java:S106N"9Replace this use of System.out or System.err by a logger.(¤º
+S	java:S106Q"9Replace this use of System.out or System.err by a logger.(ñ÷Öàüÿÿÿÿ
+N	java:S106T"9Replace this use of System.out or System.err by a logger.(ıäĞØ
+M	java:S106X"9Replace this use of System.out or System.err by a logger.(İ¢„-
+N	java:S106["9Replace this use of System.out or System.err by a logger.(òÔÈ
+N	java:S106b"9Replace this use of System.out or System.err by a logger.(±¿ğÉ
+N	java:S106e"9Replace this use of System.out or System.err by a logger.(Àòøá
+N	java:S106h"9Replace this use of System.out or System.err by a logger.(×‹ş
+N	java:S106l"9Replace this use of System.out or System.err by a logger.(¯î‰ˆ
+N	java:S106p"9Replace this use of System.out or System.err by a logger.(ê¬¸á
+N	java:S106v"9Replace this use of System.out or System.err by a logger.(øÿ¦İ
+S	java:S106y"9Replace this use of System.out or System.err by a logger.(Ú¶áÁüÿÿÿÿ
+N	java:S106|"9Replace this use of System.out or System.err by a logger.(†ÙóÊ
+O	java:S106ƒ"9Replace this use of System.out or System.err by a logger.(±¿ğÉ
+T	java:S106‡"9Replace this use of System.out or System.err by a logger.(üşÓûÿÿÿÿ
+T	java:S106Š"9Replace this use of System.out or System.err by a logger.(Õ† øÿÿÿÿ
+O	java:S106‘"9Replace this use of System.out or System.err by a logger.(Àòøá
+T	java:S106•"9Replace this use of System.out or System.err by a logger.(“‘¿ÿÿÿÿÿ
+T	java:S106˜"9Replace this use of System.out or System.err by a logger.(³ÍÎ•üÿÿÿÿ
+O	java:S106Ÿ"9Replace this use of System.out or System.err by a logger.(±¿ğÉ
+T	java:S106¢"9Replace this use of System.out or System.err by a logger.(ê¢¢Éÿÿÿÿÿ
+O	java:S106¥"9Replace this use of System.out or System.err by a logger.(»å©à
+O	java:S106©"9Replace this use of System.out or System.err by a logger.(ˆ»Ç
+T	java:S106¬"9Replace this use of System.out or System.err by a logger.(Õ† øÿÿÿÿ
+O	java:S106³"9Replace this use of System.out or System.err by a logger.(Àòøá
+N	java:S106¶"9Replace this use of System.out or System.err by a logger.(¨éæ
+T	java:S106º"9Replace this use of System.out or System.err by a logger.(…ã§§úÿÿÿÿ
+T	java:S106½"9Replace this use of System.out or System.err by a logger.(³ÍÎ•üÿÿÿÿ
+O	java:S106È"9Replace this use of System.out or System.err by a logger.(º¼µÛ
+=	java:S131Ë""Add a default case to this switch.(Ï—íàıÿÿÿÿ
+v
+java:S11927"`Define a constant instead of duplicating this literal "Introduceti ID-ul studentului: " 4 times.(±¿ğÉ
+p
+java:S1192K"ZDefine a constant instead of duplicating this literal "Introduceti ID-ul temei: " 4 times.(Àòøá

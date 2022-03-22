@@ -1,0 +1,28 @@
+
+D
+java:S37404"/Provide the parametrized type for this generic.(¼â–~
+V	java:S125R"<This block of commented-out lines of code should be removed.(„ Å©úÿÿÿÿ
+>
+java:S1128"(Remove this unused import 'domain.Tema'.(õ–Ö‚
+Q
+java:S1128	";Remove this unused import 'validation.ValidationException'.(ï´÷Ø
+H
+java:S1128"-Remove this unused import 'org.w3c.dom.Node'.(ùŠÿËýÿÿÿÿ
+G
+java:S1128"1Remove this unused import 'org.w3c.dom.NodeList'.(ÂÈÃ‚
+P
+java:S1128"5Remove this unused import 'org.xml.sax.SAXException'.(ü…ãþÿÿÿÿ
+`
+java:S1128"ERemove this unused import 'javax.xml.parsers.DocumentBuilderFactory'.(»·±Ñüÿÿÿÿ
+f
+java:S1128"KRemove this unused import 'javax.xml.parsers.ParserConfigurationException'.(ûýƒøÿÿÿÿ
+F
+java:S1128"0Remove this unused import 'javax.xml.transform'.(ÆÃ©
+Y
+java:S1128">Remove this unused import 'javax.xml.transform.dom.DOMSource'.(¾Ñ¶âùÿÿÿÿ
+Z
+java:S1128"DRemove this unused import 'javax.xml.transform.stream.StreamResult'.(Æ‹ëÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡šÛŒÿÿÿÿÿ
+k	java:S117!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö¸ôŠüÿÿÿÿ
+f	java:S117."QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éºŸé
+k	java:S117/"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë½üÜýÿÿÿÿ
