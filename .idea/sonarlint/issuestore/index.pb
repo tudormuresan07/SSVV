@@ -1,7 +1,5 @@
 
 d
-4src/main/java/repository/AbstractCRUDRepository.java,4\1\412302aefdc39dcb70b8267287b3163e1d5723c7
-d
 4src/main/java/repository/AbstractFileRepository.java,b\d\bd066f2d8e3b3187d34d46b694c641b96b80632a
 S
 #src/main/java/ssvv/example/App.java,3\4\34d315dfcfbdbcb2c750d63ef92d20c7c356a745
@@ -37,10 +35,6 @@ N
 0src/main/java/repository/TemaFileRepository.java,e\e\eec3c98455737a8b56da42984229bca91e979901
 \
 ,src/main/java/repository/TemaRepository.java,f\8\f894f0e34c2cf6f1679b39d1f687782de0a8d7e9
-[
-+src/main/java/validation/TemaValidator.java,0\d\0d7c3db6733920271657fccd904b1cfff2d37a65
-_
-/src/main/java/repository/TemaXMLRepository.java,b\a\ba78bddc26812003d187b0000979b53f184f79ec
 8
 teme.xml,0\b\0b6d92a9f3ac36fd46a4707147e5b2a6c21c8577
 M

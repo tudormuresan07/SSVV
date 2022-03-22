@@ -67,4 +67,36 @@ public class AppTest
         int result=service.saveStudent("1","Gion",935);
         assertEquals(0, result);
     }
+
+    @Test
+    public void test__saveTema__addValidTema__temaCorrectlyAdded(){
+        Validator<Student> studentValidator = new StudentValidator();
+        Validator<Tema> temaValidator = new TemaValidator();
+        Validator<Nota> notaValidator = new NotaValidator();
+
+        StudentXMLRepository fileRepository1 = new StudentXMLRepository(studentValidator, "studenti_test.xml");
+        TemaXMLRepository fileRepository2 = new TemaXMLRepository(temaValidator, "teme_test.xml");
+        NotaXMLRepository fileRepository3 = new NotaXMLRepository(notaValidator, "note.xml");
+
+        Service service = new Service(fileRepository1, fileRepository2, fileRepository3);
+
+        int result=service.saveTema("1","Description1",10,3);
+        assertEquals(0, result);
+    }
+
+    @Test
+    public void test__saveTema__addInvalidTema__temaNotSaved(){
+        Validator<Student> studentValidator = new StudentValidator();
+        Validator<Tema> temaValidator = new TemaValidator();
+        Validator<Nota> notaValidator = new NotaValidator();
+
+        StudentXMLRepository fileRepository1 = new StudentXMLRepository(studentValidator, "studenti_test.xml");
+        TemaXMLRepository fileRepository2 = new TemaXMLRepository(temaValidator,"teme_test.xml");
+        NotaXMLRepository fileRepository3 = new NotaXMLRepository(notaValidator, "note.xml");
+
+        Service service = new Service(fileRepository1, fileRepository2, fileRepository3);
+
+        int result=service.saveTema("1","",10,3);
+        assertEquals(1, result);
+    }
 }
