@@ -4,4 +4,8 @@
         <Nume>Gion</Nume>
         <Grupa>935</Grupa>
     </student>
+    <student ID="2">
+        <Nume>StudentEminent</Nume>
+        <Grupa>936</Grupa>
+    </student>
 </Entitati>
