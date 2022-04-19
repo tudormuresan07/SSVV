@@ -183,4 +183,60 @@ public class AppTest
         assertEquals(1,saveNota);
 
     }
+
+    @Test
+    public void test__saveTema__temaHavingNullId__temaNotAdded(){
+        Service service=before();
+
+        int result=service.saveTema(null,"des",10,2);
+        assertEquals(1,result);
+    }
+
+    @Test
+    public void test__saveTema__temaHavingEmptyId__temaNotAdded(){
+        Service service=before();
+
+        int result=service.saveTema("","des",10,2);
+        assertEquals(1,result);
+    }
+
+    @Test
+    public void test__saveTema__temaHavingInvalidDescription__temaNotAdded(){
+        Service service=before();
+
+        int result=service.saveTema("10","",10,2);
+        assertEquals(1,result);
+    }
+
+    @Test
+    public void test__saveTema__temaHavingNegativeDeadline__temaNotAdded(){
+        Service service=before();
+
+        int result=service.saveTema("10","des",-2,2);
+        assertEquals(1,result);
+    }
+
+    @Test
+    public void test__saveTema__temaHavingDeadlinHigherThanPossible__temaNotAdded(){
+        Service service=before();
+
+        int result=service.saveTema("10","des",15,2);
+        assertEquals(1,result);
+    }
+
+    @Test
+    public void test__saveTema__temaHavingNegativePrimire__temaNotAdded(){
+        Service service=before();
+
+        int result=service.saveTema("10","des",10,-2);
+        assertEquals(1,result);
+    }
+
+    @Test
+    public void test__saveTema__temaHavingPrimireHigherThanPossible__temaNotAdded(){
+        Service service=before();
+
+        int result=service.saveTema("10","des",10,15);
+        assertEquals(1,result);
+    }
 }
