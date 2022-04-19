@@ -58,12 +58,8 @@ public class AppTest
 
         Service service = new Service(fileRepository1, fileRepository2, fileRepository3);
 
-        service.saveStudent("1","Gion",935);
-        int nrOfStudents=0;
-        for (Student student : service.findAllStudents()) {
-            nrOfStudents += 1;
-        }
-        assertEquals(1, nrOfStudents);
+        int result=service.saveStudent("1","Gion",935);
+        assertEquals(0,result);
     }
 
     @Test
@@ -79,7 +75,7 @@ public class AppTest
         Service service = new Service(fileRepository1, fileRepository2, fileRepository3);
 
         int result=service.saveStudent("1","Gion",935);
-        assertEquals(0, result);
+        assertEquals(1, result);
     }
 
     @Test
@@ -143,7 +139,7 @@ public class AppTest
         Service service = new Service(fileRepository1, fileRepository2, fileRepository3);
 
         int result=service.saveTema("1","Description1",10,3);
-        assertEquals(0, result);
+        assertEquals(1, result);
     }
 
     @Test
@@ -167,7 +163,7 @@ public class AppTest
         Service service=before();
 
         int result=service.saveNota("1","1",1,13,"Foarte rau");
-        assertEquals(0,result);
+        assertEquals(-1,result);
     }
 
     @Test
