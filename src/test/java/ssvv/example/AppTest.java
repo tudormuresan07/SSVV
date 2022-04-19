@@ -235,4 +235,15 @@ public class AppTest
         int result=service.saveTema("10","des",10,15);
         assertEquals(1,result);
     }
+
+    @Test
+    public void test__saveStudentAndTema__saveValidStudentAndTema__studentAndTemaCorrectlyAdded(){
+        Service service=before();
+
+        int saveStudentResult=service.saveStudent("100","Ionut",934);
+        int saveTemaResult=service.saveTema("100","descriere",10,4);
+
+        assertEquals(1,saveStudentResult);
+        assertEquals(1,saveTemaResult);
+    }
 }

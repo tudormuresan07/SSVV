@@ -47,3 +47,9 @@ b
 note.xml,8\9\8902bffc66ed6369fa4f70e3ed942b43a245b320
 <
 studenti.xml,3\2\326d42f3080256213be560f7e607dc469f2f5d52
+[
++src/main/java/validation/NotaValidator.java,e\9\e95d6676d30344ae1689829f1063afc5f9aaba68
+_
+/src/main/java/repository/NotaXMLRepository.java,0\c\0cee03349a619d0241e7dfa1faaaca962178b6b3
+R
+"src/main/java/service/Service.java,c\8\c89769fe181d330c440b8bb964f3bd35c8fc8e4e
